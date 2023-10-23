@@ -1,0 +1,62 @@
+/*1. color general de la lletra negra*/
+body {
+    color: black;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+h1 {
+    background-color: white;
+    color: gray;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+p strong, p.paragraf2 strong {
+    color: green;
+    text-decoration: underline;
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 a {
+    font-style: italic;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+div > footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+
+
+/* Canvis */
+/* El títol es canvia de color, el tornem a canvia al 
+color d'abans amb un selector que té més pes que els demes */
+#container #titol-pagina {
+    background-color: #cccccc;
+    color: black;
+}
+
+/* canviem el color de la lletra de tot el document */
+body * {
+    color: #333;
+}
+
+/* tots els strong estan en color verd, els canviem al seu
+ color d'abans i li treiem el subratllat*/
+
+#container strong{
+    color:#be0380;
+    text-decoration: none;
+}
+#container .paragraf2 strong{
+    color:#010b99;
+}
+
+/* els enllaços del paragraf2 estan en italica, els posem 
+normal */
+
+.paragraf2 a {
+    font-style: normal;
+}
+

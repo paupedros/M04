@@ -1,0 +1,32 @@
+/*Crea els estils css necessaris per aconseguir que la taula es vegi com a l'exemple*/
+/*table, tr, th, td {border:1px solid #000; border-collapse:collapse; padding:5px;}*/
+
+table, th, td, tr {
+    border: black 1px solid;
+    margin: 10px;
+}
+
+table tbody tr:first-child th:nth-child(1), tr:first-child  {
+    background-color: lightgray;
+}
+th:first-child {
+    background-color: lightblue;
+}
+
+tr:nth-child(even){
+    background-color: lightyellow;
+}
+tr:nth-child(n+1){
+    text-align: right;
+}
+tr:nth-child(n+1):hover {
+    background-color: yellow;
+    
+}
+
+.euro{
+    background-image: url(images/euro-sign.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
