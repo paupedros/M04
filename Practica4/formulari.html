@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Formulari</title>
+</head>
+<body>
+    <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+    <!-- Formulari -->
+    <form action="formulari_enviat.html" method="post">
+        <!-- Entrada de text -->
+        <label for="nom">Nom: </label>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="cognom">Cognoms: </label>
+        <input type="text" id="cognom" name="cognom" required><br>
+        
+        <label for="correu">Email: </label>
+        <input type="email" id="correu" name="correu" required><br>
+
+        <label for="edat">EDAT</label>
+        <input type="number" id="edat" name="edat" required><br>
+        
+        <h2>Quin cicle estàs estudiant?</h2>
+        <!-- botons de radio -->
+        <input type="radio" id="asix" name="cicle_estuadiant" value="ASIX">
+        <label for="asix">ASIX</label><br>
+        
+        <input type="radio" id="dam" name="cicle_estuadiant" value="DAM">
+        <label for="dam">DAM</label><br>
+
+        <input type="radio" id="daw" name="cicle_estuadiant" value="DAW">
+        <label for="daw">DAW</label><br>
+
+
+        <!-- Desplegable amb opcions -->
+        <label for="desplegable">I en quin curs?</label>
+        <select name="desplegable" id="desplegable">
+            <option value="primer">Primer</option>
+            <option value="segon">Segon</option>
+        </select>
+
+        <!-- Checkbox (Multiselecció) -->
+        <h2 for="checkbox">Marca els temes que vulguis estar al dia!</h2>
+        <input type="checkbox" name="ia" id="ia">
+        <label for="ia">Intel·ligència artificial</label>
+        <br>
+        <input type="checkbox" name="comp" id="comp">
+        <label for="comp">Computació quàntica</label>
+        <br>
+        <input type="checkbox" name="super" id="super">
+        <label for="super">Supercomputadors</label>
+        <br>
+        <input type="checkbox" name="alg" id="alg">
+        <label for="alg">Recerca en algorísmia</label>
+        <br>
+
+        <!-- Area gran de text -->
+        <p>Hi ha algun tema més t'interessi? Explica'ns-ho!</p>
+        <textarea name="30" id="" cols="30" rows="10" placeholder="També m'agradaria saber les últimes novetats sobre..."></textarea>
+        <br>
+        <!-- Botó d'enviar el formulari -->
+        <input type="submit" value="Subscriu-me">
+        
+    </form>
+</body>
+</html>
