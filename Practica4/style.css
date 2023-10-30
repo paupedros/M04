@@ -1,0 +1,37 @@
+
+* { /* A tot el document canviem el fons de color, la tipografi i el color de la lletra */
+    background-color: rgb(7, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}   
+.text { /* A tot el text li posem una amplada de 300px*/
+    width: 300px;
+}
+.labelText { /* Alineem bé els labels d'entrada de text per a què quedi bonic */
+    display: inline-block;
+    width: 100px;
+}
+
+#edat { /* Al imput de edat li cambien la amplada a 100px amb l'id*/
+    width: 100px;
+}
+input[type="submit"], button{ /* Als botons els hi canviem el format a un personalitzat */
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #00000050;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: coral;
+    transition:  1s ease-in-out;
+    
+}
+input[type="submit"]:hover, button:hover{ /* Fem l'efecte del hover, farà un gir de 360 graus */
+    transform: rotate(360deg);  
+}
+
+.text:focus, input[type="number"]:focus, textarea:focus {   /* A tots els elements que tinguin el focus li cambiem el color del fons a un més fosc*/
+    background-color: rgb(4, 42, 42);
+}

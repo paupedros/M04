@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     
     <title>Formulari</title>
 </head>
@@ -11,24 +12,24 @@
     <!-- Formulari -->
     <form action="formulari_enviat.html" method="post">
         <!-- Entrada de text -->
-        <label for="nom">Nom: </label>
-        <input type="text" id="nom" name="nom" required><br>
+        <label for="nom" class="labelText">Nom: </label>
+        <input type="text" id="nom" name="nom" required  class="text"><br>
 
-        <label for="cognom">Cognoms: </label>
-        <input type="text" id="cognom" name="cognom" required><br>
+        <label for="cognom" class="labelText">Cognoms: </label>
+        <input type="text" id="cognom" name="cognom" required  class="text"><br>
         
-        <label for="correu">Email: </label>
-        <input type="email" id="correu" name="correu" required><br>
+        <label for="correu" class="labelText">Email: </label>
+        <input type="email" id="correu" name="correu" required  class="text"><br>
 
-        <label for="edat">EDAT</label>
-        <input type="number" id="edat" name="edat" required><br>
+        <label for="edat" class="labelText">Edat</label>
+        <input type="number" id="edat" name="edat"><br>
         
         <h2>Quin cicle estàs estudiant?</h2>
         <!-- botons de radio -->
         <input type="radio" id="asix" name="cicle_estuadiant" value="ASIX">
         <label for="asix">ASIX</label><br>
         
-        <input type="radio" id="dam" name="cicle_estuadiant" value="DAM">
+        <input type="radio" id="dam" name="cicle_estuadiant" value="DAM" checked>
         <label for="dam">DAM</label><br>
 
         <input type="radio" id="daw" name="cicle_estuadiant" value="DAW">
@@ -50,7 +51,7 @@
         <input type="checkbox" name="comp" id="comp">
         <label for="comp">Computació quàntica</label>
         <br>
-        <input type="checkbox" name="super" id="super">
+        <input type="checkbox" name="super" id="super" checked>
         <label for="super">Supercomputadors</label>
         <br>
         <input type="checkbox" name="alg" id="alg">
@@ -59,7 +60,7 @@
 
         <!-- Area gran de text -->
         <p>Hi ha algun tema més t'interessi? Explica'ns-ho!</p>
-        <textarea name="30" id="" cols="30" rows="10" placeholder="També m'agradaria saber les últimes novetats sobre..."></textarea>
+        <textarea name="30" id="" cols="30" rows="10" placeholder="També m'agradaria saber les últimes novetats sobre..." required></textarea>
         <br>
         <!-- Botó d'enviar el formulari -->
         <input type="submit" value="Subscriu-me">
