@@ -7,7 +7,7 @@ body {
 
 /* color de fons al header i el posem fixat */
 header{
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(36, 16, 60);
     color: white;
     position: fixed;
     width: 100%;
@@ -26,7 +26,7 @@ a{
 /* Color de fons, color de la lletra, el fem sticky perque al fer scroll segueixi la pantalla, 
     i li posem format per a que es vegi més bonic */
 nav {
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(36, 16, 60);
     color: white;
     position: sticky;
     top: 80px;
@@ -49,10 +49,13 @@ section {
 
 /* Li posem color de fons, a la lletra i ho centrem */
 footer{
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(36, 16, 60);
     color: white;
     text-align: center;
-    height: 50px;
     padding: 10px;
+    
+}
+h2{
+    color:rgb(36, 16, 60);
 }
     
