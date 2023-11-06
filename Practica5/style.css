@@ -1,0 +1,58 @@
+/* Treiem al body el margin i padding per defecte del navegador i li canviem la tipografia */ 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* color de fons al header i el posem fixat */
+header{
+    background-color: rgb(69, 69, 69);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+/* Centrem el text del header al centre */
+h1{
+    text-align: center;
+}
+
+/* Canviem el color dels links */
+a{
+    color: white; 
+}
+
+/* Color de fons, color de la lletra, el fem sticky perque al fer scroll segueixi la pantalla, 
+    i li posem format per a que es vegi més bonic */
+nav {
+    background-color: rgb(69, 69, 69);
+    color: white;
+    position: sticky;
+    top: 80px;
+    padding-bottom: 10px;
+    height: 20px;
+    text-align: center;
+}
+
+/* Posem margin-top per a que es vegi tot el contingut sota del nav */
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+/* Cada secció té un color de fons clar, i ho separem una mica a la esquerra*/
+section {
+    background-color: lavender;
+    padding: 10px 10px 10px 20px;
+    margin: 10px;
+}
+
+/* Li posem color de fons, a la lletra i ho centrem */
+footer{
+    background-color: rgb(69, 69, 69);
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+    
