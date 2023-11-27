@@ -1,37 +1,61 @@
-
-* { /* A tot el document canviem el fons de color, la tipografi i el color de la lletra */
-    background-color: rgb(7, 71, 71);
+/* Treiem al body el margin i padding per defecte del navegador i li canviem la tipografia */ 
+body {
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}   
-.text { /* A tot el text li posem una amplada de 300px*/
-    width: 300px;
-}
-.labelText { /* Alineem bé els labels d'entrada de text per a què quedi bonic */
-    display: inline-block;
-    width: 100px;
 }
 
-#edat { /* Al imput de edat li cambien la amplada a 100px amb l'id*/
-    width: 100px;
-}
-input[type="submit"], button{ /* Als botons els hi canviem el format a un personalitzat */
+/* color de fons al header i el posem fixat */
+header{
+    background-color: rgb(36, 16, 60);
     color: white;
-    font-weight: bold;
-    box-shadow: 5px 5px 10px #00000050;
+    position: fixed;
+    width: 100%;
+}
+
+/* Centrem el text del header al centre */
+h1{
+    text-align: center;
+}
+
+/* Canviem el color dels links */
+a{
+    color: white; 
+}
+
+/* Color de fons, color de la lletra, el fem sticky perque al fer scroll segueixi la pantalla, 
+    i li posem format per a que es vegi més bonic */
+nav {
+    background-color: rgb(36, 16, 60);
+    color: white;
+    position: sticky;
+    top: 80px;
+    padding-bottom: 10px;
+    height: 20px;
+    text-align: center;
+}
+
+/* Posem margin-top per a que es vegi tot el contingut sota del nav */
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+/* Cada secció té un color de fons clar, i ho separem una mica a la esquerra*/
+section {
+    background-color: lavender;
+    padding: 10px 10px 10px 20px;
     margin: 10px;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: coral;
-    transition:  1s ease-in-out;
+}
+
+/* Li posem color de fons, a la lletra i ho centrem */
+footer{
+    background-color: rgb(36, 16, 60);
+    color: white;
+    text-align: center;
+    padding: 10px;
     
 }
-input[type="submit"]:hover, button:hover{ /* Fem l'efecte del hover, farà un gir de 360 graus */
-    transform: rotate(360deg);  
+h2{
+    color:rgb(36, 16, 60);
 }
-
-.text:focus, input[type="number"]:focus, textarea:focus {   /* A tots els elements que tinguin el focus li cambiem el color del fons a un més fosc*/
-    background-color: rgb(4, 42, 42);
-}
+    
