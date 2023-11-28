@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aromaticDeli>
+
+    <!-- Exemple café -->
+    <producte tipus="cafe" id_producte="43273">
+        <nom>Café latte macchiato</nom>
+        <preu>13,27€</preu>
+        <especificacions>El latte macchiato és una beguda preparada amb llet i café expreso.
+            Original d'Italia.</especificacions>
+        <stock>120</stock>
+    </producte>
+
+
+    <!-- Exemple té -->
+    <producte tipus="te" id_producte="721632">
+        <nom>Te Matcha Premium</nom>
+        <preu>24,55€</preu>
+        <especificacions>Pols de Te Matxa Orgànic de Grau Cerimonial d'Alta Qualitat d'Uji, Kyoto,
+            Japó. Lleugerament dolç i amb un agradable gust natural.</especificacions>
+        <stock>89</stock>
+    </producte>
+
+
+    <!-- Exemple maquinari -->
+    <producte tipus="maquinari" id_producte="384327">
+        <nom>ROSETA DISPLAY</nom>
+        <preu>3.118,61</preu>
+        <especificacions>Màquina de cafè professional de medides de 68x59x55cm, potència de 3740 W</especificacions>
+        <stock>33</stock>
+    </producte>
+
+
+    <!-- Exemple accessori -->
+    <producte tipus="accessori" id_producte="312783">
+        <nom>Premsador de cafè</nom>
+        <preu>19,99€</preu>
+        <especificacions>Premsador antiadherent, autonivelante, mànec refinat, base plana d'acer
+            inoxidable</especificacions>
+        <stock>52</stock>
+    </producte>
+
+
+    <!-- Exemple client -->
+    <client>
+        <dades id_soci="56784">
+            <nom>Vanessa</nom>
+            <cognom>Fernandez</cognom>
+            <edat>28</edat>
+            <email>vanessa23@gmail.com</email>
+            <poblacio>Barcelona</poblacio>
+        </dades>
+        <comandes>
+            <comanda id_comanda="7567">
+                <producte id_producte="312783">
+                    <quantitat>2</quantitat>
+                </producte>
+                <preuTotal>38,98€</preuTotal>
+                <dataHora>21:45 - 22/11/2023</dataHora>
+            </comanda>
+        </comandes>
+    </client>
+
+</aromaticDeli>

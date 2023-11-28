@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aromaticDeli>
+    <!-- Estructura dades dels productes -->
+
+    <producte tipus="" id_producte="">
+        <nom></nom>
+        <preu></preu>
+        <especificacions></especificacions>
+        <stock></stock>
+    </producte>
+
+
+    <!-- Estructura dades del client -->
+    <client>
+        <dades id_soci="">
+            <nom></nom>
+            <cognom></cognom>
+            <edat></edat>
+            <email></email>
+            <poblacio></poblacio>
+        </dades>
+        <comandes>
+            <comanda id_comanda="">
+                <producte id_producte="">
+                    <quantitat></quantitat>
+                </producte>
+                <preuTotal></preuTotal>
+                <dataHora></dataHora>
+            </comanda>
+        </comandes>
+    </client>
+
+
+</aromaticDeli>
