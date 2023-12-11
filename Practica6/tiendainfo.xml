@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!--Version 1 XML(La que se usa simpre),Codificación UTF8 para que los caracteres se vean todos bien-->
+<!DOCTYPE tienda_informatica SYSTEM "tiendainfo.dtd">
+<tienda_informatica>
+    <productos> <!--categoria padre para los productos de la tienda-->
+        <producto categoria="ordenador"> <!--atributo de cartegorias para el producto-->
+            <identificador num_serie="XYZ12345ABC6789"/><!--identificador unico del producto-->
+            <marca>MSI</marca><!--marca(MSI,NASUS,Lenovo...)-->
+            <modelo>MSI GP62M 7RD LEOPARD</modelo><!--modelo del producto-->
+            <precio>1200€</precio><!--precio del modelo del producto-->
+            <stock>32</stock><!--unidades que tenemos del producto-->
+        </producto>
+    </productos>
+    <clientes><!--categoria padre guardar los datos de los clientes y el registro de pedidos que hagan.-->
+        <cliente dni="11111111X"> <!--identificador unico de cada cliente(DNI)-->
+          	<usuario>pedro12</usuario> <!--usuario del cliente-->
+            <nombre_completo>Pedro Jimenez</nombre_completo><!--nombre completo del cliente-->
+            <email>ejemplo1234@gmail.com</email><!--gmail para enviar ofertar y/o usarlo para comunicarnos-->
+            <telefono>666666666</telefono><!--telefono para llamar cliente segun la preferencia de este-->
+            <preferencia_contacto>email</preferencia_contacto><!--metodo de contacto que prefiere el cliente(en caso de que no se responda usaremos los dos)-->
+            <pedidos><!--categoria padre para los registros de pedidos-->
+                <pedido><!--categoria padre para el pedido-->
+                    <fecha>12/03/2009</fecha><!--fecha de compra del/los producto/s-->
+                    <productosPedido>
+                        <productoPedido num_serie="XYZ12345ABC6789">
+                            <unidades>2</unidades><!--unidades del producto-->
+                        </productoPedido>
+                    </productosPedido>
+                </pedido>
+            </pedidos>
+        </cliente>
+    </clientes>
+</tienda_informatica>

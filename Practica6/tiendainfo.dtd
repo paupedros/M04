@@ -1,0 +1,33 @@
+<!ELEMENT tienda_informatica (productos, clientes)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto  (identificador, marca, modelo, precio, stock)>
+<!ATTLIST producto categoria CDATA #REQUIRED>
+
+<!ELEMENT identificador (#PCDATA)>
+<!ATTLIST identificador num_serie ID #REQUIRED>
+
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
+<!ELEMENT clientes (cliente+)>
+
+<!ELEMENT cliente (usuario, nombre_completo, email, telefono?, preferencia_contacto, pedidos)>
+<!ATTLIST cliente dni CDATA #REQUIRED>
+
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT nombre_completo (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT preferencia_contacto (email|telefono)>
+
+<!ELEMENT pedidos (pedido*)>
+<!ELEMENT pedido (fecha, productosPedido)>
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT productosPedido (productoPedido+)>
+<!ELEMENT productoPedido (unidades)>
+<!ELEMENT unidades (#PCDATA)>
+<!ATTLIST productoPedido num_serie IDREF #REQUIRED>
