@@ -1,0 +1,18 @@
+{
+    "classe": [
+        {
+            "matricula": "A123",
+            "edat": 22,
+            "alumne": "Maria"
+        },
+        {
+            "matricula": "B456",
+            "edat": 21,
+            "alumne": "Pere"
+        },
+        {
+            "departament": "Matemàtiques",
+            "professor": "Dra. Martínez"
+        }
+    ]
+}
