@@ -1,0 +1,14 @@
+{
+    "cotxe": {
+        "marca": "Toyota",
+        "model": {
+            "nom": "Camry",
+            "tipus": "sedan"
+        },
+        "any": 2022,
+        "preu": {
+            "preu": 25000,
+            "monedea": "EUR"
+        }
+    }
+}

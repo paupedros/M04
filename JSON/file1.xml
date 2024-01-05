@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracio>
+    <idioma>català</idioma>
+    <tema>fosc</tema>
+    <notificacions>
+        <activades>true</activades>
+        <to>predeterminat</to>
+    </notificacions>
+    <preferenices mostra_publi="false">
+        <menu>perfil</menu>
+        <menu>config</menu>
+        <menu>ajuda</menu>
+    </preferenices>
+</configuracio>

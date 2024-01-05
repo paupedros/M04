@@ -1,0 +1,22 @@
+{
+    "estudiant": "Hermione",
+    "aficions": [
+        "correr",
+        "tenis",
+        "gimnas"
+    ],
+    "assignatures": {
+        "pocions": "Molt be",
+        "defensa": "Genial"
+    },
+    "mascotes": [
+        {
+            "nom": "Crooks",
+            "especie": "gat"
+        },
+        {
+            "nom": "Bulls",
+            "especie": "gos"
+        }
+    ]
+}
