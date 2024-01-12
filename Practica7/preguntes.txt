@@ -1,0 +1,9 @@
+3-.
+    a-
+    <age/>
+    Altres maneres:
+        <age></age>
+
+    b-
+    
+    Si, tot esta en angles
