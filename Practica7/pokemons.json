@@ -1,0 +1,147 @@
+{
+    "pokemons": [
+        {
+            "id": 1,
+            "nom": "Bulbasaur",
+            "tipus": [
+                "planta",
+                "veneno"
+            ],
+            "pes": {
+                "unitat": "kg",
+                "valor": 6.9
+            },
+            "altura": {
+                "unitat": "m",
+                "valor": 0.7
+            },
+            "estadistiques": {
+                "velocitat": 3,
+                "fortalesa": 3,
+                "precisio": 4,
+                "resistencia": 4,
+                "salt": 3
+            },
+            "moviments": [
+                {
+                    "nom": "placatge",
+                    "descripcio": "Placatge (Tackle en anglès; たいあたり Cop amb el cos en japonès) és un moviment de tipus normal introduït en la primera generació.",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "raig solar",
+                    "descripcio": "Raig solar (Solar Beam en anglès, ソーラービーム Raig solar en japonès) és un moviment de tipus planta introduït en la primera generació.",
+                    "potencia": 120,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png",
+            "evolucions": [
+                {
+                    "id": 2,
+                    "nivell": 16
+                },
+                {
+                    "id": 3,
+                    "nivell": 32
+                }
+            ]
+        },
+        {
+          "id": 94,
+          "nom": "Gengar",
+          "tipus": ["fantasma", "veneno"],
+          "pes": {
+            "unitat": "kg",
+            "valor": 40.0
+          },
+          "altura": {
+            "unitat": "m",
+            "valor": 1.5
+          },
+          "estadistiques": {
+            "velocitat": 130,
+            "fortalesa": 60,
+            "precisio": 110,
+            "resistencia": 60,
+            "salt": 60
+          },
+          "moviments": [
+            {
+              "nom": "placatge",
+              "descripcio": "Placatge (Tackle en anglès; たいあたり Cop amb el cos en japonès) és un moviment de tipus normal introduït en la primera generació.",
+              "potencia": 40,
+              "contacte": true
+            },
+            {
+              "nom": "raig fantasma",
+              "descripcio": "Raig fantasma (Shadow Ball en anglès; シャドーボール Bola de foc en japonès) és un moviment de tipus fantasma introduït en la primera generació.",
+              "potencia": 80,
+              "contacte": false
+            },
+            {
+              "nom": "explosió fantasma",
+              "descripcio": "Explosió fantasma (Shadow Punch en anglès; シャドーパンチ Cop fantasma en japonès) és un moviment de tipus fantasma introduït en la primera generació.",
+              "potencia": 60,
+              "contacte": true
+            }
+          ],
+          "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/45/latest/190406170624/Gengar.png",
+          "evolucions": [
+            {
+              "id": 93,
+              "nivell": 32
+            }
+          ]
+        },
+        {
+            "id": 2,
+            "nom": "Ivysaur",
+            "tipus": ["planta", "veneno"],
+            "pes": {
+              "unitat": "kg",
+              "valor": 13.0
+            },
+            "altura": {
+              "unitat": "m",
+              "valor": 0.9
+            },
+            "estadistiques": {
+              "velocitat": 4,
+              "fortalesa": 4,
+              "precisio": 5,
+              "resistencia": 5,
+              "salt": 4
+            },
+            "moviments": [
+              {
+                "nom": "placatge",
+                "descripcio": "Placatge (Tackle en anglès; たいあたり Cop amb el cos en japonès) és un moviment de tipus normal introduït en la primera generació.",
+                "potencia": 40,
+                "contacte": true
+              },
+              {
+                "nom": "raig solar",
+                "descripcio": "Raig solar (Solar Beam en anglès, ソーラービーム Raig solar en japonès) és un moviment de tipus planta introduït en la primera generació.",
+                "potencia": 120,
+                "contacte": false
+              },
+              {
+                "nom": "fulla afilada",
+                "descripcio": "Fulla afilada (Razor Leaf en anglès; リーフブレード Fulla tallant en japonès) és un moviment de tipus planta introduït en la primera generació.",
+                "potencia": 55,
+                "contacte": true
+              }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/44/latest/190406170624/Ivysaur.png",
+            "evolucions": [
+              {
+                "id": 3,
+                "nivell": 32
+              }
+            ]
+          }
+
+    ]
+}
