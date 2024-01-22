@@ -141,7 +141,115 @@
                 "nivell": 32
               }
             ]
+          },
+          {
+            "id": 652,
+            "nom": "Greninja",
+            "tipus": ["aigua", "sinistre"],
+            "pes": {
+              "unitat": "kg",
+              "valor": 62.0
+            },
+            "altura": {
+              "unitat": "m",
+              "valor": 1.6
+            },
+            "estadistiques": {
+              "velocitat": 120,
+              "fortalesa": 65,
+              "precisio": 95,
+              "resistencia": 65,
+              "salt": 105
+            },
+            "moviments": [
+              {
+                "nom": "placatge",
+                "descripcio": "Placatge (Tackle en anglès; たいあたり Cop amb el cos en japonès) és un moviment de tipus normal introduït en la primera generació.",
+                "potencia": 40,
+                "contacte": true
+              },
+              {
+                "nom": "raig d'aigua",
+                "descripcio": "Raig d'aigua (Water Pulse en anglès; ハイドロポンプ Hidrobomba en japonès) és un moviment de tipus aigua introduït en la primera generació.",
+                "potencia": 60,
+                "contacte": false
+              },
+              {
+                "nom": "atac ala",
+                "descripcio": "Atac ala (Aerial Ace en anglès; エアエース Ataque ala en japonès) és un moviment de tipus volador introduït en la primera generació.",
+                "potencia": 60,
+                "contacte": true
+              },
+              {
+                "nom": "shuriken dels núvols",
+                "descripcio": "Shuriken dels núvols (Hydro Shuriken en anglès; ハイドロカッター Hidrotall en japonès) és un moviment de tipus aigua/sinistre introduït en la sexta generació.",
+                "potencia": 70,
+                "contacte": true
+              }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/47/latest/20190406170624/Greninja.png",
+            "evolucions": [
+              {
+                "id": 651,
+                "nivell": 36
+              }
+            ]
+          },
+          {
+            "id": 641,
+            "nom": "Lucario",
+            "tipus": ["lluita", "acer"],
+            "pes": {
+              "unitat": "kg",
+              "valor": 54.0
+            },
+            "altura": {
+              "unitat": "m",
+              "valor": 1.5
+            },
+            "estadistiques": {
+              "velocitat": 90,
+              "fortalesa": 110,
+              "precisio": 130,
+              "resistencia": 70,
+              "salt": 80
+            },
+            "moviments": [
+              {
+                "nom": "placatge",
+                "descripcio": "Placatge (Tackle en anglès; たいあたり Cop amb el cos en japonès) és un moviment de tipus normal introduït en la primera generació.",
+                "potencia": 40,
+                "contacte": true
+              },
+              {
+                "nom": "puls de foc",
+                "descripcio": "Puls de foc (Fire Blast en anglès; フレアドライブ Foc llançat en japonès) és un moviment de tipus foc introduït en la primera generació.",
+                "potencia": 120,
+                "contacte": false
+              },
+              {
+                "nom": "atac ala",
+                "descripcio": "Atac ala (Aerial Ace en anglès; エアエース Ataque ala en japonès) és un moviment de tipus volador introduït en la primera generació.",
+                "potencia": 60,
+                "contacte": true
+              },
+              {
+                "nom": "punt de mira",
+                "descripcio": "Punt de mira (Focus Blast en anglès; じしん Terratrèmol en japonès) és un moviment de tipus terra introduït en la tercera generació.",
+                "potencia": 120,
+                "contacte": false
+              }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/46/latest/20190406170624/Lucario.png",
+            "evolucions": [
+              {
+                "id": 640,
+                "nivell": 20
+              }
+            ]
           }
+
+
 
     ]
 }
