@@ -1,0 +1,19 @@
+
+<!ELEMENT rss (channel)>
+<!ELEMENT channel (title, description, image, link, item+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT item (guid, title, description, pubDate, link, enclosure, category)>
+<!ATTLIST guid isPermaLink CDATA "true">
+<!ELEMENT guid (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT enclosure EMPTY>
+<!ATTLIST enclosure type CDATA #REQUIRED>
+<!ATTLIST enclosure length CDATA #REQUIRED>
+<!ATTLIST enclosure url CDATA #REQUIRED>
+<!ELEMENT category (#PCDATA)>
