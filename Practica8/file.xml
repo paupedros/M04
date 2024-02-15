@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<llenguatges>
+   <llenguatge fundacio="2011">
+       <nom>Kotlin</nom>
+       <mode_execucio>Java Virtual Machine</mode_execucio>
+       <popularitat>Creixent</popularitat>
+       <paradigmes tipat="true">
+           <paradigma>Orientat a objectes</paradigma>
+           <paradigma>Imperatiu</paradigma>
+           <paradigma>Funcional</paradigma>
+       </paradigmes>
+   </llenguatge>
+   <llenguatge fundacio="1983">
+       <nom>C++</nom>
+       <mode_execucio>Compilació</mode_execucio>
+       <popularitat>Alta</popularitat>
+       <paradigmes tipat="true">
+           <paradigma>Procedimental</paradigma>
+           <paradigma>Imperatiu</paradigma>
+           <paradigma>Orientat a objectes</paradigma>
+           <paradigma>Programació genèrica</paradigma>
+       </paradigmes>
+   </llenguatge>
+   <llenguatge fundacio="1995">
+       <nom>Java</nom>
+       <mode_execucio>Java Virtual Machine</mode_execucio>
+       <popularitat>Alta</popularitat>
+       <paradigmes tipat="true">
+           <paradigma>Orientat a objectes</paradigma>
+           <paradigma>Basat en classes</paradigma>
+       </paradigmes>
+   </llenguatge>
+   <llenguatge fundacio="1991">
+       <nom>Python</nom>
+       <mode_execucio>Interpretat</mode_execucio>
+       <popularitat>Molt alta</popularitat>
+       <paradigmes tipat="false">
+           <paradigma>Imperatiu</paradigma>
+           <paradigma>Funcional</paradigma>
+       </paradigmes>
+   </llenguatge>
+   <llenguatge fundacio="1995">
+       <nom>JavaScript</nom>
+       <mode_execucio>Interpretat</mode_execucio>
+       <popularitat>Alta</popularitat>
+       <paradigmes tipat="false">
+           <paradigma>Orientat a objectes</paradigma>
+           <paradigma>Funcional</paradigma>
+       </paradigmes>
+   </llenguatge>
+   <nom>Això no és un llenguatge de programació :(</nom>
+</llenguatges>
+
