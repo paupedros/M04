@@ -1,0 +1,11 @@
+//llenguatge[last()-1]
+//llenguatge[@fundacio]
+//@fundacio
+//@fundacio[.>2000]
+//@fundacio[.>2000]/nom
+//@fundacio[.>2000]/../nom
+//llenguatge[mode_execucio='Java Virtual Machine'] /nom/text()
+//llenguatge[nom='Kotlin']/popularitat/node()
+//mode_execucio[.='Interpretat']/..
+//paradigmes[node()='Imperatiu']/../nom
+//*

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ods font="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/">
+    <titol>Objectius de Desenvolupament Sostenible</titol>
+    <grup tipus="social">
+        <objectiu ods="1">
+            <titol>Fi de la Pobresa</titol>
+            <descripcio>
+                L'objectiu és eradicar la pobresa extrema en totes les seves formes i assegurar que totes les persones
+                tinguin accés a recursos bàsics com l'educació, la salut i l'ocupació.
+            </descripcio>
+            <accions>
+                <accio>Implementar polítiques socials inclusives</accio>
+                <accio>Garantir protecció social per a tots</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="2">
+            <titol>Fam Zero</titol>
+            <descripcio>
+                Busca garantir la seguretat alimentària i una nutrició adequada per a tothom. Això implica reduir la
+                subalimentació, millorar l'agricultura sostenible i promoure sistemes alimentaris inclusius.
+            </descripcio>
+            <accions>
+                <accio>Desenvolupar programes de distribució d'aliments</accio>
+                <accio>Promoure l'agricultura familiar</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="3">
+            <titol>Salut i Benestar</titol>
+            <descripcio>
+                Es centra en garantir una vida saludable i promoure el benestar per a totes les edats. Inclou objectius
+                com reduir la mortalitat infantil, combatre malalties i millorar la salut materna.
+            </descripcio>
+            <accions>
+                <accio>Millorar l'accés als serveis de salut</accio>
+                <accio>Promoure estils de vida saludables</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="4">
+            <titol>Educació de Qualitat</titol>
+            <descripcio>
+                Busca assegurar una educació inclusiva, equitativa i de qualitat per a tothom. Això implica millorar
+                l'alfabetització, la formació de mestres i l'accés a oportunitats educatives.
+            </descripcio>
+            <accions>
+                <accio>Promoure la formació contínua del professorat</accio>
+                <accio>Garantir l'accés a l'educació per a persones amb discapacitat</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="5">
+            <titol>Igualtat de Gènere</titol>
+            <descripcio>
+                Promou la igualtat de gènere i empoderar totes les dones i nenes. Inclou objectius com eliminar la
+                violència de gènere i garantir la participació igualitària en la presa de decisions.
+            </descripcio>
+            <accions>
+                <accio>Promoure la igualtat salarial entre gèneres</accio>
+                <accio>Eliminar totes les formes de discriminació de gènere</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="6">
+            <titol>Aigua Neta i Sanejament</titol>
+            <descripcio>
+                Busca assegurar l'accés universal a l'aigua potable i al sanejament bàsic. Això implica la gestió
+                sostenible dels recursos hídrics i la reducció de la contaminació.
+            </descripcio>
+            <accions>
+                <accio>Millorar la infraestructura de subministrament d'aigua</accio>
+                <accio>Implementar sistemes de tractament d'aigües residuals</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="10">
+            <titol>Reducció de les Desigualtats</titol>
+            <descripcio>
+                Busca reduir les bretxes entre països i dins d'ells. Inclou objectius com empoderar les persones
+                marginades i promoure polítiques inclusives.
+            </descripcio>
+            <accions>
+                <accio>Promoure la inclusió financera</accio>
+                <accio>Garantir igualtat d'oportunitats per a tothom</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="11">
+            <titol>Ciutats i Comunitats Sostenibles</titol>
+            <descripcio>
+                Promou el desenvolupament urbà sostenible, la planificació eficient i la gestió dels assentaments
+                humans.
+            </descripcio>
+            <accions>
+                <accio>Millorar el transport públic</accio>
+                <accio>Incrementar àrees verdes urbanes<start/></accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="16">
+            <titol>Pau, Justícia i Institucions Sòlides</titol>
+            <descripcio>
+                Busca promoure societats pacífiques, justes i inclusives. Inclou objectius com l'accés a la justícia i
+                la lluita contra la corrupció.
+            </descripcio>
+            <accions>
+                <accio>Fomentar la rendició de comptes i la transparència</accio>
+                <accio>Promoure la resolució pacífica de conflictes</accio>
+            </accions>
+        </objectiu>
+    </grup>
+    <grup tipus="ambiental">
+        <objectiu ods="7">
+            <titol>Energia Assequible i No Contaminant</titol>
+            <descripcio>
+                Es centra en promoure l'accés a fonts d'energia sostenibles i netes. Inclou objectius com augmentar
+                l'eficiència energètica i fomentar les energies renovables.
+            </descripcio>
+            <accions>
+                <accio>Desenvolupar infraestructures per a energies renovables</accio>
+                <accio>Promoure l'eficiència energètica a la indústria</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="9">
+            <titol>Indústria, Innovació i Infraestructura</titol>
+            <descripcio>
+                Es centra en construir infraestructures resilients, promoure la industrialització sostenible i fomentar
+                la innovació.
+            </descripcio>
+            <accions>
+                <accio>Invertir en investigació i desenvolupament</accio>
+                <accio>Desenvolupar infraestructures de transport sostenible</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="12">
+            <titol>Producció i Consum Responsables</titol>
+            <descripcio>
+                Busca promoure patrons de consum sostenibles i una gestió adequada dels recursos naturals.
+            </descripcio>
+            <accions>
+                <accio>Fomentar el reciclatge i la reutilització de productes</accio>
+                <accio>Promoure la producció sostenible</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="13">
+            <titol>Acció pel Clima</titol>
+            <descripcio>
+                Es centra en lluitar contra el canvi climàtic i els seus impactes. Inclou objectius com l'adaptació i la
+                mitigació.
+            </descripcio>
+            <accions>
+                <accio>Reduir les emissions de gasos d'efecte hivernacle</accio>
+                <accio>Promoure l ús d energies renovables</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="14">
+            <titol>Vida Submarina</titol>
+            <descripcio>
+                Busca conservar i utilitzar de manera sostenible els oceans, mars i recursos marins.
+            </descripcio>
+            <accions>
+                <accio>Protegir àrees marines protegides</accio>
+                <accio>Reduir la contaminació dels oceans</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="15">
+            <titol>Vida d'Ecosistemes Terrestres</titol>
+            <descripcio>
+                Promou la protecció, restauració i ús sostenible dels ecosistemes terrestres.
+            </descripcio>
+            <accions>
+                <accio>Restaurar àrees degradades</accio>
+                <accio>Preservar la biodiversitat</accio>
+            </accions>
+        </objectiu>
+    </grup>
+    <grup tipus="economic">
+        <objectiu ods="8">
+            <titol>Treball Digne i Creixement Econòmic</titol>
+            <descripcio><end>
+                Busca promoure l'ocupació digna, el creixement econòmic inclusiu i la protecció social. Inclou objectius
+                com reduir la informalitat laboral i garantir salaris justos.</end>
+            </descripcio>
+            <accions>
+                <accio>Fomentar l'emprenedoria i la innovació</accio>
+                <accio>Reduir la bretxa salarial de gènere</accio>
+            </accions>
+        </objectiu>
+        <objectiu ods="17">
+            <titol>Aliances per a Assolir els Objectius</titol>
+            <descripcio>
+                Fomenta la cooperació global per assolir els ODS. Inclou objectius com la financiació sostenible i la
+                transferència de tecnologia.
+            </descripcio>
+            <accions>
+                <accio>Promoure la cooperació internacional en el desenvolupament</accio>
+                <accio>Facilitar l'accés a la tecnologia i la innovació</accio>
+            </accions>
+        </objectiu>
+    </grup>
+</ods>
