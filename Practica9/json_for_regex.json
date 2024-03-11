@@ -1,0 +1,37 @@
+{
+    "monstruos": [
+      {
+        "nombre" : "Draculina",
+        "especie" : "Vampiro",
+        "habilidades": ["Transformacion en murcielago", "Control mental"],
+        "nivel_peligrosidad": 8,
+        "region": "Transilvania",
+        "es_volador": true
+      },
+      {
+        "nombre": "Kraken",
+        "especie": "Cefalopodo Gigante",
+        "habilidades" : ["Control del mar", "Tentaculos gigantes"],
+        "nivel_peligrosidad": 10,
+        "region" : "Oceano Pacifico",
+        "es_volador": false
+      },
+      {
+        "nombre": "Fuego Fatuo",
+        "especie": "Espiritu",
+        "habilidades": ["Ilusiones enganosas", "Manipulacion de luz y booleanos false", "Confusion de \"regex"],
+        "nivel_peligrosidad": 5,
+        "region": "Pantano Encantado",
+        "es_volador": false
+      },
+      {
+        "nombre": "Yeti",
+        "especie": "Criatura del Hielo",
+        "habilidades": ["Camuflaje en la nieve", "Fuerza sobrehumana"],
+        "nivel_peligrosidad": 7,
+        "region": "Montanas Heladas",
+        "es_volador": false
+      }
+    ]
+  }
+  
