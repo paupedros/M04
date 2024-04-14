@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  welcome:
+    image: mariadb
+    container_name: mariadb-sense-volum
+    environment:
+      - MARIADB_ROOT_PASSWORD=mariadb
+    ports:
+      - 3308:3306

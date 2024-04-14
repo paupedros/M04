@@ -1,0 +1,25 @@
+version: '3.9'
+services:
+  db:
+    image: postgres
+    restart: always
+    container_name: postgresMaria
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - pau:/var/lib/mysql
+    ports:
+      - 5433:5432
+  db_2:
+    image: mariadb
+    restart: always
+    container_name: mariadbPostgres
+    environment:
+      - MARIADB_ROOT_PASSWORD=mariadb
+    volumes:
+      - pau:/var/lib/mysql
+    ports:
+      - 3310:3306
+
+volumes:
+  pau:
