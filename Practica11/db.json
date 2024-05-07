@@ -1,13 +1,197 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "start": {
+    "missatge": [
+      "A les afores de la ciutat, amagat entre la densa vegetació del bosc, s'alça un antic laboratori que en algun moment va ser l'epicentre d'experiments científics avantguardistes. No obstant això, després d'un incident desconegut, el laboratori va quedar abandonat i sumit en l'oblit.",
+      "Corren rumors que al seu interior hi ha un secret que podria canviar el curs de la ciència per sempre. Però per descobrir-ho, els intrèpids aventurers han d'enfrontar-se als enigmes deixats enrere pels científics que en algun moment van treballar en aquest lloc.",
+      "Tu i el teu equip heu decidit acceptar el repte i endinsar-vos en el misteriós laboratori en busca de respostes. Però tingueu cura, el lloc està ple de perills i desafiaments que posaran a prova el vostre enginy i coratge.",
+      "L'aventura comença ara! Explora cada racó del laboratori, resol els enigmes i descobreix el secret que s'amaga en les seves entranyes. Seràs capaç de desvetllar la veritat i sortir indemne d'aquest intrigant desafiament?",
+      "Per començar ves a /portesBloquejades , si necessites pistes ves a /hint"
+    ]
+  },
+  "portesBloquejades": {
+    "missatge": "Per desbloquejar la porta, necessitaràs trobar el numero decimal amagat que, una vegada convertit a hexadecimal, revelarà la porta. Busca bé i presta atenció als detalls per resoldre el càlcul i avançar en l'aventura.",
+    "calcul": [
+      "🦋-🦋+🦋=6",
+      "⭐+⭐+⭐=30",
+      "🦋+⭐=♥",
+      "♥=?"
+    ]
+  },
+  "portes": [
+    {
+      "numero": 1,
+      "propietari": "Juan",
+      "pis": 3,
+      "canco": "[https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+      "id": "06c0"
+    },
+    {
+      "numero": 2,
+      "propietari": "María",
+      "pis": 2,
+      "canco": "[https://www.spotify.com/track/4iVqR2lDkqDv1DbgsQ7H6H](https://www.spotify.com/track/4iVqR2lDkqDv1DbgsQ7H6H)",
+      "id": "e039"
+    },
+    {
+      "numero": 3,
+      "propietari": "Luis",
+      "pis": 1,
+      "canco": "[https://www.deezer.com/track/151136345](https://www.deezer.com/track/151136345)",
+      "id": "dec7"
+    },
+    {
+      "numero": 4,
+      "propietari": "Ana",
+      "pis": 4,
+      "canco": "[https://music.apple.com/us/album/happy/1440888276](https://music.apple.com/us/album/happy/1440888276)",
+      "id": "f102"
+    },
+    {
+      "numero": 5,
+      "propietari": "Carlos",
+      "pis": 5,
+      "canco": "[https://www.youtube.com/watch?v=yQwJ29tVq2E](https://www.youtube.com/watch?v=yQwJ29tVq2E)",
+      "id": "d90f"
+    },
+    {
+      "numero": 6,
+      "propietari": "Elena",
+      "pis": 2,
+      "canco": "[https://open.spotify.com/track/5q8fB9QIbZNJCqEoYzDfVg](https://open.spotify.com/track/5q8fB9QIbZNJCqEoYzDfVg)",
+      "id": "9292"
+    },
+    {
+      "numero": 7,
+      "propietari": "Pedro",
+      "pis": 3,
+      "canco": "[https://www.youtube.com/watch?v=hT_gsQz-yGg](https://www.youtube.com/watch?v=hT_gsQz-yGg)",
+      "id": "440f"
+    },
+    {
+      "numero": 8,
+      "propietari": "Laura",
+      "pis": 4,
+      "canco": "[https://www.youtube.com/watch?v=4zLfCnGVeL4](https://www.youtube.com/watch?v=4zLfCnGVeL4)",
+      "id": "9d49"
+    },
+    {
+      "numero": 9,
+      "propietari": "Pablo",
+      "pis": 1,
+      "canco": "[https://www.youtube.com/watch?v=YlUKb8_ZvAc](https://www.youtube.com/watch?v=YlUKb8_ZvAc)",
+      "id": "5f8b"
+    },
+    {
+      "numero": 10,
+      "propietari": "Carmen",
+      "pis": 2,
+      "canco": "[https://www.youtube.com/watch?v=f_iP4T07y4E](https://www.youtube.com/watch?v=f_iP4T07y4E)",
+      "id": "75dd"
+    },
+    {
+      "numero": 11,
+      "propietari": "Sergio",
+      "pis": 3,
+      "canco": "[https://www.youtube.com/watch?v=L9f--85QRDs](https://www.youtube.com/watch?v=L9f--85QRDs)",
+      "id": "6a8b"
+    },
+    {
+      "numero": 12,
+      "propietari": "Isabel",
+      "pis": 4,
+      "canco": "[https://www.youtube.com/watch?v=dMH0bLpGqCM](https://www.youtube.com/watch?v=dMH0bLpGqCM)",
+      "id": "7168"
+    },
+    {
+      "numero": 13,
+      "propietari": "Raul",
+      "pis": 5,
+      "canco": "[https://www.youtube.com/watch?v=iPYTm27Hkps](https://www.youtube.com/watch?v=iPYTm27Hkps)",
+      "id": "a155"
+    },
+    {
+      "numero": 14,
+      "propietari": "Lucia",
+      "pis": 1,
+      "canco": "[https://www.youtube.com/watch?v=wgzPkSKxj_Q](https://www.youtube.com/watch?v=wgzPkSKxj_Q)",
+      "id": "338a"
+    },
+    {
+      "numero": 15,
+      "propietari": "Javier",
+      "pis": 2,
+      "canco": "[https://www.youtube.com/watch?v=iX_Y9N5_aSs](https://www.youtube.com/watch?v=iX_Y9N5_aSs)",
+      "id": "ab99"
+    },
+    {
+      "numero": 16,
+      "propietari": "Nuria",
+      "pis": 3,
+      "canco": "https://suno.com/song/b58b75e6-3dff-4c7d-93a7-70623a1b11ef",
+      "id": "1bd6"
+    },
+    {
+      "numero": 17,
+      "propietari": "Alberto",
+      "pis": 4,
+      "canco": "[https://www.youtube.com/watch?v=JlG-mHhFK1s](https://www.youtube.com/watch?v=JlG-mHhFK1s)",
+      "id": "3564"
+    },
+    {
+      "numero": 18,
+      "propietari": "Silvia",
+      "pis": 1,
+      "canco": "[https://www.youtube.com/watch?v=LH0y4-mPhzU](https://www.youtube.com/watch?v=LH0y4-mPhzU)",
+      "id": "b53a"
+    },
+    {
+      "numero": 19,
+      "propietari": "Diego",
+      "pis": 2,
+      "canco": "[https://www.youtube.com/watch?v=y6120QZPJFU](https://www.youtube.com/watch?v=y6120QZPJFU)",
+      "id": "4e9a"
+    },
+    {
+      "numero": 20,
+      "propietari": "Eva",
+      "pis": 3,
+      "canco": "[https://www.youtube.com/watch?v=gbPpRd4JC8M](https://www.youtube.com/watch?v=gbPpRd4JC8M)",
+      "id": "1834"
     }
+  ],
+  "hint": {
+    "hints": [
+      "1 Entra a portesBloquejades per obtenir més informació",
+      "2 La canço conte un codi decimal, té més sentit en hexadecimal 😉 ",
+      "3 La quantitat de articles és la solució"
+    ]
+  },
+  "3D6A2": {
+    "missatge": "Has conseguit el codi, introdueix el nombre de articles que portes a la motxilla, potser et serveix obrir la motxilla, merdós. En acabar ves a /final",
+    "items": 0
+  },
+  "motxilla": [
+    {
+      "missatge": "Afegeix els items que comencin per la lletra 'a' de la estanteria"
+    }
+  ],
+  "estanteria": {
+    "items": [
+      "Escriptor",
+      "Llibres",
+      "Avocat",
+      "Llapis",
+      "Tinta",
+      "Paper",
+      "Alumini",
+      "Llengua",
+      "Amoníac"
+    ]
+  },
+  "final": {
+    "missatge": "Noi no has menjat? T'ha entrat gana i t'has menjat l'avocat! Treu-lo de la motxilla. Ves al endpoint de quants items tens a la motxilla. PD: es un numero"
+  },
+  "2": {
+    "missatge": "FELICITATS HAS GUANYAT!"
   }
+}
