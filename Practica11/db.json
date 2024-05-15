@@ -162,8 +162,10 @@
   "hint": {
     "hints": [
       "1 Entra a portesBloquejades per obtenir més informació",
-      "2 La canço conte un codi decimal, té més sentit en hexadecimal 😉 ",
-      "3 La quantitat de articles és la solució"
+      "2 Quina casualitat que les /portes estan numerades ",
+      "3 La canço conte un codi decimal, té més sentit en hexadecimal 😉 ",
+      "4 La quantitat de articles és la solució",
+      "5 Entra a /final per obtenir més informació, no vas una mica pesat?"
     ]
   },
   "3D6A2": {
@@ -172,7 +174,7 @@
   },
   "motxilla": [
     {
-      "missatge": "Afegeix els items que comencin per la lletra 'a' de la estanteria"
+      "missatge": "Afegeix els items que comencin per la lletra 'a' de la /estanteria "
     }
   ],
   "estanteria": {
